@@ -9,7 +9,7 @@ var nav = $("nav");
 
 var home_position = $("#home").position().top;
 var who_we_are = $("#who_are_we").position().top;
-var about_us = $("#about_us").position().top;
+var sites_migrated = $("#sites_migrated").position().top;
 var experience = $("#experience").position().top;
 
 $(document).ready(function(){
@@ -26,7 +26,7 @@ $(window).scroll(function(){
 	if(scrollPosition > who_we_are - 20){
        nav.css("background", "#f8f9fa");
     }
-    if(scrollPosition > about_us - 20){
+    if(scrollPosition > sites_migrated - 20){
         nav.css("background", "white");       
     } 
     if(scrollPosition > experience - 20){
